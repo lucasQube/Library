@@ -1,0 +1,26 @@
+{
+    "name": "test/library",
+    "description": "This is a test library package",
+    "type": "library",
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Test\\Library\\LibraryServiceProvider"
+          ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Library\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucas",
+            "email": "lucas.pan@qubeapps.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
